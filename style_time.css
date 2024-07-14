@@ -1,0 +1,26 @@
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: bisque;
+}
+table,
+th,
+td {
+  border: 1px solid black;
+}
+th,
+td {
+  padding: 10px;
+  text-align: center;
+}
+th[colspan="9"] {
+  text-align: center;
+  background-color: rgb(168, 241, 205);
+  font-size: xx-large;
+}
+th{
+    background-color: rgb(120, 231, 231);
+}
+td{
+    background-color: rgb(205, 235, 240);
+}
